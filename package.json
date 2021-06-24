@@ -1,5 +1,5 @@
 {
-  "homepage": "https:/AnkitBhujeja.github.io/box-office",
+  "homepage": "https://AnkitBhujeja.github.io/box-office",
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
@@ -30,8 +30,6 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,7 +37,9 @@
     "lint": "eslint src/**/*.js",
     "format": "prettier --write src/**/*.js",
     "format:lint": "npm run format && npm run lint",
-    "clear": "rimraf build"
+    "clear": "rimraf build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
