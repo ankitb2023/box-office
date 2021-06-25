@@ -1,5 +1,5 @@
 {
-  "short_name": "Ankit Second project",
+  "short_name": "Ankit project",
   "name": "Box Office A.B",
   "icons": [
     {
@@ -9,14 +9,9 @@
       "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "logo1923.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
